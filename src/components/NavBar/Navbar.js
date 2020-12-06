@@ -32,7 +32,7 @@ function Navbar() {
   const clickHandler = () => {
     setDropdown(!dropdown);
     setIcon(!icon);
-    inputRef.current.focus();
+    //inputRef.current.focus();
   };
 
   const listItemHandler = (e) => {
